@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { searchMovies, getMovie } from "./api/omdb";
 import KageScene from "./KageScene";
+import catalog from "./data/catalog.json";
 
 function App() {
   const [query, setQuery] = useState("");
