@@ -113,7 +113,7 @@ function App() {
 
                 <div>
                   <span>{movie.Year}</span>
-                  <span>•</span>
+                  <span>â€¢</span>
                   <span>{movie.Type}</span>
                 </div>
               </div>
@@ -138,7 +138,7 @@ function App() {
               className="close"
               onClick={() => setSelectedMovie(null)}
             >
-              ×
+              Ã—
             </button>
 
             <img
