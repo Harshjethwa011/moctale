@@ -28,3 +28,5 @@ dist-ssr
 .env
 
 scripts/title.basics.tsv.gz
+.vercel
+.env*
